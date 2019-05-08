@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60D735F2283106E00A532EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D735E2283106E00A532EE /* AppDelegate.swift */; };
+		B60D73612283106E00A532EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73602283106E00A532EE /* ViewController.swift */; };
+		B60D73642283106E00A532EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D73622283106E00A532EE /* Main.storyboard */; };
+		B60D73662283107100A532EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60D73652283107100A532EE /* Assets.xcassets */; };
+		B60D73692283107100A532EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D73672283107100A532EE /* LaunchScreen.storyboard */; };
+		B60D73742283107100A532EE /* KitaMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73732283107100A532EE /* KitaMathTests.swift */; };
+		B60D737F2283107100A532EE /* KitaMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D737E2283107100A532EE /* KitaMathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60D73702283107100A532EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60D73532283106E00A532EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60D735A2283106E00A532EE;
+			remoteInfo = KitaMath;
+		};
+		B60D737B2283107100A532EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60D73532283106E00A532EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60D735A2283106E00A532EE;
+			remoteInfo = KitaMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60D735B2283106E00A532EE /* KitaMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitaMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60D735E2283106E00A532EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B60D73602283106E00A532EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B60D73632283106E00A532EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60D73652283107100A532EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60D73682283107100A532EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60D736A2283107100A532EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60D736F2283107100A532EE /* KitaMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitaMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60D73732283107100A532EE /* KitaMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitaMathTests.swift; sourceTree = "<group>"; };
+		B60D73752283107100A532EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60D737A2283107100A532EE /* KitaMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitaMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60D737E2283107100A532EE /* KitaMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitaMathUITests.swift; sourceTree = "<group>"; };
+		B60D73802283107100A532EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60D73582283106E00A532EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D736C2283107100A532EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D73772283107100A532EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60D73522283106E00A532EE = {
+			isa = PBXGroup;
+			children = (
+				B60D735D2283106E00A532EE /* KitaMath */,
+				B60D73722283107100A532EE /* KitaMathTests */,
+				B60D737D2283107100A532EE /* KitaMathUITests */,
+				B60D735C2283106E00A532EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60D735C2283106E00A532EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60D735B2283106E00A532EE /* KitaMath.app */,
+				B60D736F2283107100A532EE /* KitaMathTests.xctest */,
+				B60D737A2283107100A532EE /* KitaMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60D735D2283106E00A532EE /* KitaMath */ = {
+			isa = PBXGroup;
+			children = (
+				B60D735E2283106E00A532EE /* AppDelegate.swift */,
+				B60D73602283106E00A532EE /* ViewController.swift */,
+				B60D73622283106E00A532EE /* Main.storyboard */,
+				B60D73652283107100A532EE /* Assets.xcassets */,
+				B60D73672283107100A532EE /* LaunchScreen.storyboard */,
+				B60D736A2283107100A532EE /* Info.plist */,
+			);
+			path = KitaMath;
+			sourceTree = "<group>";
+		};
+		B60D73722283107100A532EE /* KitaMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73732283107100A532EE /* KitaMathTests.swift */,
+				B60D73752283107100A532EE /* Info.plist */,
+			);
+			path = KitaMathTests;
+			sourceTree = "<group>";
+		};
+		B60D737D2283107100A532EE /* KitaMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B60D737E2283107100A532EE /* KitaMathUITests.swift */,
+				B60D73802283107100A532EE /* Info.plist */,
+			);
+			path = KitaMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60D735A2283106E00A532EE /* KitaMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60D73832283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMath" */;
+			buildPhases = (
+				B60D73572283106E00A532EE /* Sources */,
+				B60D73582283106E00A532EE /* Frameworks */,
+				B60D73592283106E00A532EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitaMath;
+			productName = KitaMath;
+			productReference = B60D735B2283106E00A532EE /* KitaMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B60D736E2283107100A532EE /* KitaMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60D73862283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMathTests" */;
+			buildPhases = (
+				B60D736B2283107100A532EE /* Sources */,
+				B60D736C2283107100A532EE /* Frameworks */,
+				B60D736D2283107100A532EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60D73712283107100A532EE /* PBXTargetDependency */,
+			);
+			name = KitaMathTests;
+			productName = KitaMathTests;
+			productReference = B60D736F2283107100A532EE /* KitaMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B60D73792283107100A532EE /* KitaMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60D73892283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMathUITests" */;
+			buildPhases = (
+				B60D73762283107100A532EE /* Sources */,
+				B60D73772283107100A532EE /* Frameworks */,
+				B60D73782283107100A532EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60D737C2283107100A532EE /* PBXTargetDependency */,
+			);
+			name = KitaMathUITests;
+			productName = KitaMathUITests;
+			productReference = B60D737A2283107100A532EE /* KitaMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60D73532283106E00A532EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Chrizers;
+				TargetAttributes = {
+					B60D735A2283106E00A532EE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B60D736E2283107100A532EE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B60D735A2283106E00A532EE;
+					};
+					B60D73792283107100A532EE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B60D735A2283106E00A532EE;
+					};
+				};
+			};
+			buildConfigurationList = B60D73562283106E00A532EE /* Build configuration list for PBXProject "KitaMath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60D73522283106E00A532EE;
+			productRefGroup = B60D735C2283106E00A532EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60D735A2283106E00A532EE /* KitaMath */,
+				B60D736E2283107100A532EE /* KitaMathTests */,
+				B60D73792283107100A532EE /* KitaMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60D73592283106E00A532EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60D73692283107100A532EE /* LaunchScreen.storyboard in Resources */,
+				B60D73662283107100A532EE /* Assets.xcassets in Resources */,
+				B60D73642283106E00A532EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D736D2283107100A532EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D73782283107100A532EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60D73572283106E00A532EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60D73612283106E00A532EE /* ViewController.swift in Sources */,
+				B60D735F2283106E00A532EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D736B2283107100A532EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60D73742283107100A532EE /* KitaMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60D73762283107100A532EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60D737F2283107100A532EE /* KitaMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60D73712283107100A532EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60D735A2283106E00A532EE /* KitaMath */;
+			targetProxy = B60D73702283107100A532EE /* PBXContainerItemProxy */;
+		};
+		B60D737C2283107100A532EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60D735A2283106E00A532EE /* KitaMath */;
+			targetProxy = B60D737B2283107100A532EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60D73622283106E00A532EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60D73632283106E00A532EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60D73672283107100A532EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60D73682283107100A532EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60D73812283107100A532EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B60D73822283107100A532EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60D73842283107100A532EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60D73852283107100A532EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B60D73872283107100A532EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitaMath.app/KitaMath";
+			};
+			name = Debug;
+		};
+		B60D73882283107100A532EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KitaMath.app/KitaMath";
+			};
+			name = Release;
+		};
+		B60D738A2283107100A532EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KitaMath;
+			};
+			name = Debug;
+		};
+		B60D738B2283107100A532EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GH3U9J536;
+				INFOPLIST_FILE = KitaMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.chrizers.KitaMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KitaMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60D73562283106E00A532EE /* Build configuration list for PBXProject "KitaMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60D73812283107100A532EE /* Debug */,
+				B60D73822283107100A532EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60D73832283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60D73842283107100A532EE /* Debug */,
+				B60D73852283107100A532EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60D73862283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60D73872283107100A532EE /* Debug */,
+				B60D73882283107100A532EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60D73892283107100A532EE /* Build configuration list for PBXNativeTarget "KitaMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60D738A2283107100A532EE /* Debug */,
+				B60D738B2283107100A532EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60D73532283106E00A532EE /* Project object */;
+}
