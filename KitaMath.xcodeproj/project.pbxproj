@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B60D735F2283106E00A532EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D735E2283106E00A532EE /* AppDelegate.swift */; };
-		B60D73612283106E00A532EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73602283106E00A532EE /* ViewController.swift */; };
 		B60D73642283106E00A532EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D73622283106E00A532EE /* Main.storyboard */; };
 		B60D73662283107100A532EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60D73652283107100A532EE /* Assets.xcassets */; };
 		B60D73692283107100A532EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60D73672283107100A532EE /* LaunchScreen.storyboard */; };
 		B60D73742283107100A532EE /* KitaMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73732283107100A532EE /* KitaMathTests.swift */; };
 		B60D737F2283107100A532EE /* KitaMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D737E2283107100A532EE /* KitaMathUITests.swift */; };
+		B60D738E228311FE00A532EE /* KMViewModelMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D738D228311FE00A532EE /* KMViewModelMain.swift */; };
+		B60D73912283141900A532EE /* KMCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73902283141900A532EE /* KMCardView.swift */; };
+		B60D7394228323A200A532EE /* KMVCMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D7393228323A200A532EE /* KMVCMain.swift */; };
+		B60D73972283246A00A532EE /* KMCellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73962283246A00A532EE /* KMCellContent.swift */; };
+		B60D739A2283279600A532EE /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73992283279600A532EE /* Content.swift */; };
+		B60D739F22832C4300A532EE /* KMFibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D739E22832C4300A532EE /* KMFibonacci.swift */; };
+		B60D73A322832C6600A532EE /* KMFibonacci.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60D73A222832C6600A532EE /* KMFibonacci.xib */; };
+		B60D73A52283311C00A532EE /* KMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73A42283311C00A532EE /* KMButton.swift */; };
+		B60D73A82283CA2400A532EE /* KMPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73A72283CA2400A532EE /* KMPrime.swift */; };
+		B60D73AA2283CA4C00A532EE /* KMPrime.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60D73A92283CA4C00A532EE /* KMPrime.xib */; };
+		B60D73AD2283CAA100A532EE /* KMSumMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73AC2283CAA100A532EE /* KMSumMultiply.swift */; };
+		B60D73AF2283CAAE00A532EE /* KMSumMultiply.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60D73AE2283CAAE00A532EE /* KMSumMultiply.xib */; };
+		B60D73B22283CBE400A532EE /* ExtUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D73B12283CBE400A532EE /* ExtUIColor.swift */; };
+		B663B3FA2285F399001F8770 /* BigNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663B3F92285F399001F8770 /* BigNum.swift */; };
+		B663B3FC2285F7FA001F8770 /* KMBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B663B3FB2285F7FA001F8770 /* KMBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		B60D735B2283106E00A532EE /* KitaMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitaMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60D735E2283106E00A532EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B60D73602283106E00A532EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B60D73632283106E00A532EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B60D73652283107100A532EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60D73682283107100A532EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,21 @@
 		B60D737A2283107100A532EE /* KitaMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitaMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60D737E2283107100A532EE /* KitaMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitaMathUITests.swift; sourceTree = "<group>"; };
 		B60D73802283107100A532EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60D738D228311FE00A532EE /* KMViewModelMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMViewModelMain.swift; sourceTree = "<group>"; };
+		B60D73902283141900A532EE /* KMCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMCardView.swift; sourceTree = "<group>"; };
+		B60D7393228323A200A532EE /* KMVCMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMVCMain.swift; sourceTree = "<group>"; };
+		B60D73962283246A00A532EE /* KMCellContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMCellContent.swift; sourceTree = "<group>"; };
+		B60D73992283279600A532EE /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		B60D739E22832C4300A532EE /* KMFibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMFibonacci.swift; sourceTree = "<group>"; };
+		B60D73A222832C6600A532EE /* KMFibonacci.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KMFibonacci.xib; sourceTree = "<group>"; };
+		B60D73A42283311C00A532EE /* KMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMButton.swift; sourceTree = "<group>"; };
+		B60D73A72283CA2400A532EE /* KMPrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPrime.swift; sourceTree = "<group>"; };
+		B60D73A92283CA4C00A532EE /* KMPrime.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KMPrime.xib; sourceTree = "<group>"; };
+		B60D73AC2283CAA100A532EE /* KMSumMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMSumMultiply.swift; sourceTree = "<group>"; };
+		B60D73AE2283CAAE00A532EE /* KMSumMultiply.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KMSumMultiply.xib; sourceTree = "<group>"; };
+		B60D73B12283CBE400A532EE /* ExtUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIColor.swift; sourceTree = "<group>"; };
+		B663B3F92285F399001F8770 /* BigNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNum.swift; sourceTree = "<group>"; };
+		B663B3FB2285F7FA001F8770 /* KMBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMBaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				B60D735E2283106E00A532EE /* AppDelegate.swift */,
-				B60D73602283106E00A532EE /* ViewController.swift */,
-				B60D73622283106E00A532EE /* Main.storyboard */,
+				B60D73982283278900A532EE /* Models */,
+				B60D73952283245600A532EE /* Views */,
+				B60D73922283239000A532EE /* Controllers */,
+				B60D738C228311B100A532EE /* ViewModels */,
+				B60D73B02283CBCE00A532EE /* Helpers */,
+				B60D738F228313FD00A532EE /* Components */,
 				B60D73652283107100A532EE /* Assets.xcassets */,
-				B60D73672283107100A532EE /* LaunchScreen.storyboard */,
 				B60D736A2283107100A532EE /* Info.plist */,
 			);
 			path = KitaMath;
@@ -123,6 +154,89 @@
 				B60D73802283107100A532EE /* Info.plist */,
 			);
 			path = KitaMathUITests;
+			sourceTree = "<group>";
+		};
+		B60D738C228311B100A532EE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B60D738D228311FE00A532EE /* KMViewModelMain.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B60D738F228313FD00A532EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73902283141900A532EE /* KMCardView.swift */,
+				B60D73A42283311C00A532EE /* KMButton.swift */,
+				B663B3FB2285F7FA001F8770 /* KMBaseView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B60D73922283239000A532EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B60D7393228323A200A532EE /* KMVCMain.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B60D73952283245600A532EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73AB2283CA6C00A532EE /* SumMultiply */,
+				B60D73A62283CA0E00A532EE /* Prime */,
+				B60D739D22832C0E00A532EE /* Fibonacci */,
+				B60D73622283106E00A532EE /* Main.storyboard */,
+				B60D73672283107100A532EE /* LaunchScreen.storyboard */,
+				B60D73962283246A00A532EE /* KMCellContent.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B60D73982283278900A532EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73992283279600A532EE /* Content.swift */,
+				B663B3F92285F399001F8770 /* BigNum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B60D739D22832C0E00A532EE /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				B60D739E22832C4300A532EE /* KMFibonacci.swift */,
+				B60D73A222832C6600A532EE /* KMFibonacci.xib */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		B60D73A62283CA0E00A532EE /* Prime */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73A72283CA2400A532EE /* KMPrime.swift */,
+				B60D73A92283CA4C00A532EE /* KMPrime.xib */,
+			);
+			path = Prime;
+			sourceTree = "<group>";
+		};
+		B60D73AB2283CA6C00A532EE /* SumMultiply */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73AC2283CAA100A532EE /* KMSumMultiply.swift */,
+				B60D73AE2283CAAE00A532EE /* KMSumMultiply.xib */,
+			);
+			path = SumMultiply;
+			sourceTree = "<group>";
+		};
+		B60D73B02283CBCE00A532EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B60D73B12283CBE400A532EE /* ExtUIColor.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +345,9 @@
 			files = (
 				B60D73692283107100A532EE /* LaunchScreen.storyboard in Resources */,
 				B60D73662283107100A532EE /* Assets.xcassets in Resources */,
+				B60D73A322832C6600A532EE /* KMFibonacci.xib in Resources */,
+				B60D73AF2283CAAE00A532EE /* KMSumMultiply.xib in Resources */,
+				B60D73AA2283CA4C00A532EE /* KMPrime.xib in Resources */,
 				B60D73642283106E00A532EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +373,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60D73612283106E00A532EE /* ViewController.swift in Sources */,
+				B60D73912283141900A532EE /* KMCardView.swift in Sources */,
+				B663B3FA2285F399001F8770 /* BigNum.swift in Sources */,
+				B60D73972283246A00A532EE /* KMCellContent.swift in Sources */,
+				B60D73A82283CA2400A532EE /* KMPrime.swift in Sources */,
+				B663B3FC2285F7FA001F8770 /* KMBaseView.swift in Sources */,
+				B60D739F22832C4300A532EE /* KMFibonacci.swift in Sources */,
+				B60D739A2283279600A532EE /* Content.swift in Sources */,
+				B60D73B22283CBE400A532EE /* ExtUIColor.swift in Sources */,
+				B60D738E228311FE00A532EE /* KMViewModelMain.swift in Sources */,
+				B60D73A52283311C00A532EE /* KMButton.swift in Sources */,
+				B60D73AD2283CAA100A532EE /* KMSumMultiply.swift in Sources */,
+				B60D7394228323A200A532EE /* KMVCMain.swift in Sources */,
 				B60D735F2283106E00A532EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
